@@ -1,0 +1,8 @@
+.whole{
+    @apply flex flex-col min-h-screen;
+}
+
+.exceptHeader{
+    margin-top: 76px;
+    @apply grow
+}

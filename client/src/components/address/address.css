@@ -1,0 +1,7 @@
+.addressWithPin{
+    @apply mt-2 flex gap-2 items-center
+}
+
+a.roomsAddress{
+    @apply underline font-semibold decoration-1
+}

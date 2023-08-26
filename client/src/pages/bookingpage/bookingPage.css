@@ -1,0 +1,27 @@
+.bookingWhole{
+    @apply bg-gray-100 grow
+}
+
+.bookingPage{
+    @apply px-16 mx-2 mb-20
+}
+
+.bookingHead{
+    @apply text-2xl my-4 p-2 px-10 font-light bg-gray-200
+}
+
+.bookingTitle{
+    @apply text-3xl pb-1 pt-3
+}
+
+.bookingInfo{
+    @apply bg-gray-300 p-4 px-6 rounded-2xl my-6 flex justify-between
+}
+
+.bookingInfoHead{
+    @apply text-xl pl-4
+}
+
+.bookingTotPrice{
+    @apply bg-primary p-3 py-4 rounded-xl flex flex-col gap-2 items-center text-white
+}

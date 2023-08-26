@@ -1,0 +1,40 @@
+.heading{
+    @apply py-2 px-5 mb-3
+}
+
+.placeList{
+    @apply flex flex-col gap-4
+}
+
+.placeDiv{
+    @apply flex relative bg-gray-200 rounded-xl gap-2 items-center overflow-hidden
+}
+
+.placePhotoDiv{
+    @apply w-48 h-40 bg-gray-200 flex-shrink-0
+}
+
+
+.placePhoto{
+    @apply w-full h-full object-cover
+}
+
+.exceptPhoto{
+    @apply px-2
+}
+
+.editButton{
+    @apply absolute top-0 right-0 px-3 py-1 flex text-sm hover:bg-primary
+}
+
+.placeTitle{
+    @apply text-xl h-7 overflow-hidden
+}
+
+.placeAddress{
+    @apply text-sm mt-2 h-16 overflow-hidden
+}
+
+.placePrice{
+    @apply mt-4
+}

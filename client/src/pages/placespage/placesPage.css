@@ -1,0 +1,83 @@
+.placesDiv{
+    @apply flex flex-col mt-3 
+}
+
+.addLink{
+    @apply inline-flex py-2 px-6 mt-4 gap-1 bg-primary text-white rounded-full
+}
+
+.new{
+
+}
+
+.heading{
+    @apply text-2xl pt-4 font-semibold
+}
+
+.newPlaceForm{
+    @apply p-3;
+}
+
+.inputTitle{
+    @apply text-xl
+}
+
+.inputDesc{
+    @apply text-gray-500 text-sm
+}
+
+.inputs{
+    @apply placeholder:italic placeholder:text-slate-400;
+}
+
+
+.addPhoto{
+    @apply flex gap-2 items-center
+}
+
+.addPhotoButton{
+    @apply px-2 bg-gray-200 h-8 rounded-md hover:bg-gray-300
+}
+
+.photos{
+    @apply my-2 gap-2 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6
+}
+
+.photoDiv{
+    @apply flex h-32 relative
+}
+
+.photo{
+    @apply w-full h-full object-cover 
+}
+
+.star{
+    @apply absolute top-0 right-0 bg-white bg-opacity-50 rounded-tl-xl p-1
+}
+
+.delete{
+    @apply absolute bottom-0 right-0 bg-white bg-opacity-50 rounded-tl-xl p-1
+}
+
+.uploadPhotoButton{
+    @apply flex rounded-xl flex-col p-2 items-center justify-center bg-gray-200 hover:bg-gray-300 cursor-pointer
+}
+.perks{
+    @apply pb-2 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6  gap-x-2 gap-y-1
+}
+
+.perkLabel{
+    @apply border p-2 flex items-start gap-2 hover:bg-gray-200
+}
+
+.check{
+    @apply grid grid-cols-2 lg:grid-cols-4 gap-2 text-sm;
+}
+
+.formButton{
+    @apply flex justify-center
+}
+
+button.saveButton{
+    @apply bg-primary grow rounded-full py-2 mt-3
+}

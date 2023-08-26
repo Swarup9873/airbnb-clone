@@ -1,0 +1,36 @@
+
+.modal {
+    @apply hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-50
+}
+
+.modal.show {
+    @apply flex justify-center items-center
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+.loginHeader{
+    @apply text-4xl text-center pb-5;
+}
+
+.tryAgain{
+    @apply text-red-500;
+}
+
+button.login{
+    @apply bg-primary p-2 w-full text-white text-center rounded-2xl;
+}
+
+.regRequest{
+    @apply pt-2 text-gray-500 flex justify-center
+}
+
+.regLink{
+    @apply underline text-blue-400 px-1
+}

@@ -1,0 +1,40 @@
+
+.register{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-content {
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 200px;
+}
+
+.regHeader{
+    @apply text-4xl text-center pb-5;
+}
+
+button.reg{
+    @apply bg-primary p-2 mt-2 w-full text-white text-center rounded-2xl;
+}
+
+.logRequest{
+    @apply pt-2 text-gray-500 flex justify-center
+}
+
+.logLink{
+    @apply underline text-blue-400 px-1
+}
+
+#emailId{
+    @apply mb-0
+}
+
+#pass{
+    @apply mb-0
+}

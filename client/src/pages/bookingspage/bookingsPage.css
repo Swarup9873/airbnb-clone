@@ -1,0 +1,55 @@
+.bookingsWhole{
+    @apply flex flex-col mt-3 px-8 mx-10
+}
+
+.heading{
+    @apply py-2 px-5 mb-3
+}
+
+.bookingsList{
+    @apply flex flex-col gap-4
+}
+
+.bookingsDiv{
+    @apply flex bg-gray-200 rounded-xl gap-2 items-center overflow-hidden
+}
+
+.bookingsPhotoDiv{
+    @apply w-48 h-40 bg-gray-200 flex-shrink-0
+}
+
+.bookingsPhoto{
+    @apply w-full h-full object-cover
+}
+
+.bookingsExceptPhoto{
+    @apply px-2 flex flex-col gap-2
+}
+
+.bookingsTitle{
+    @apply text-xl h-7 overflow-hidden
+}
+
+.bookingsAddress{
+    @apply text-sm overflow-hidden text-gray-500 pb-4
+}
+
+.checkTimes{
+    @apply flex items-center
+}
+
+.logs{
+    @apply flex items-center gap-3 overflow-hidden
+}
+
+.bookingsPeriod{
+    @apply font-semibold text-xl flex items-center gap-1
+}
+
+.bookingsPrice{
+    @apply flex items-center gap-1
+}
+
+.bookingsCheck{
+    @apply text-sm font-semibold
+}

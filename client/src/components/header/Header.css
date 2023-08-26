@@ -1,0 +1,70 @@
+.head {
+    @apply p-3 flex justify-between border-b-2 border-gray-300 bg-white fixed w-full z-40 shadow shadow-lg
+  }
+  
+  .logo {
+    @apply flex gap-2 text-primary items-center;
+  }
+  
+  .logoImg{
+    @apply mx-4 w-10 h-10 md:mx-0 md:w-7 md:h-7;
+  }
+
+  .prettyImg{
+    @apply mx-4 w-10 h-10
+  }
+
+  .logotext {
+    @apply font-bold text-xl hidden md:block ;
+  }
+  
+  .searchBlock {
+    @apply px-5 py-2 flex border-2 rounded-full gap-3 border-gray-300 justify-between shadow-sm 
+    shadow-gray-200 hover:drop-shadow-md md:ml-8 
+  }
+  
+  .searchComp{
+    @apply flex items-center 
+  }
+
+  .guestComp {
+    @apply text-gray-400;
+  }
+
+  .searchHeaderForm{
+    @apply flex items-center gap-1;
+  }
+
+  button.searchButton {
+    height: 25px;
+    width: 25px;
+    @apply p-1 flex bg-primary text-center items-center text-white rounded-full;
+  }
+  
+  .catchphrase {
+    @apply flex inline-flex items-center px-5;
+  }
+  
+  .profile {
+    @apply flex px-2 py-2 gap-2 items-center border-2 rounded-full border-gray-300 shadow-gray-200 shadow-sm hover:drop-shadow-md;
+  }
+  
+  .profileLogo {
+    @apply text-gray-500;
+  }
+  
+  .invis{
+    display: none;
+  }
+
+  .namedLogo{
+    @apply  flex bg-black items-center justify-center rounded-full w-8 h-8
+  }
+
+  .namedLogoText{
+    @apply flex text-white text-xs items-center justify-center;
+  }
+
+  #searchHeader{
+    @apply border-none p-0 w-20 rounded-none m-0
+  }

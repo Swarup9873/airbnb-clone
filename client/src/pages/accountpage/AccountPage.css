@@ -1,0 +1,39 @@
+.content{
+    @apply px-20
+}
+
+.accountHead{
+    @apply border-b-2
+}
+
+.accountHeadHead{
+    @apply py-3 md:px-5 md:py-6 lg:px-10 py-12
+}
+
+.account{
+    @apply pt-5 font-semibold text-4xl
+}
+
+.firstAccountLine{
+    @apply py-2 pb-6 text-lg;
+}
+
+.name{
+    @apply font-medium
+}
+
+.profileLink{
+    @apply underline font-medium
+}
+
+.optionsList{
+    @apply flex justify-around pb-3
+}
+
+.option{
+    @apply inline-flex gap-1 px-4 py-2 font-normal bg-gray-200 rounded-full
+}
+
+.option.clicked{
+    @apply bg-primary text-white
+}

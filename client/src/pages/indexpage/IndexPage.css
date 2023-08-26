@@ -1,0 +1,27 @@
+.indexPage{
+    @apply p-5 px-10 mb-10
+}
+
+.indexPlaces{
+    @apply grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6
+}
+
+.indexPlace{
+    
+}
+
+.indexPlacePhotoDiv{
+    @apply bg-gray-500 rounded-xl flex aspect-square overflow-hidden
+}
+
+.indexPlacePhoto{
+    @apply w-full object-cover
+}
+
+.indexPlaceTitle{
+    @apply text-sm truncate
+}
+
+.indexPlaceAddress{
+    @apply font-bold
+}

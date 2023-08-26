@@ -1,0 +1,56 @@
+.roomPage{
+    @apply bg-gray-100 grow
+}
+
+.roomBody{
+    @apply mx-14 pt-5  lg:mx-28 lg:pt-10 xl:mx-40 mb-6
+}
+
+.roomTitle{
+    @apply text-3xl font-semibold
+}
+
+.roomHead{
+    @apply flex flex-col
+}
+
+.roomHeadDiv{
+    @apply mb-4 py-1
+}
+
+.belowPhoto{
+    @apply grid grid-cols-[2fr_1fr] my-4 gap-4
+}
+
+.roomDesc{
+    @apply mb-4 
+}
+
+.roomDescTitle{
+    @apply font-semibold text-2xl
+}
+
+.roomDescText{
+    @apply mt-1 p-2 max-h-72 overflow-hidden
+}
+
+.check{
+    @apply grid grid-cols-[2fr_1fr] my-4 items-center
+}
+
+.checkHead{
+    @apply text-lg font-semibold
+}
+
+.roomInfo{
+    @apply pb-4 px-4 bg-white pt-4
+}
+
+.roomInfoTitle{
+    @apply font-semibold text-2xl
+}
+
+.roomInfoText{
+    @apply mt-1
+}
+
